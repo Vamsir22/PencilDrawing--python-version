@@ -172,7 +172,7 @@ def pencil_drawing(img_path, pencil_texture):
 if __name__ == '__main__':
 
     if len(sys.argv) < 3:
-        print 'usage: python %s [img] [pencil texture]' % os.path.basename(sys.argv[0])
+        print ('usage: python %s [img] [pencil texture]' % os.path.basename(sys.argv[0])
     img_path = sys.argv[1]
     pencil_texture = sys.argv[2]
 
